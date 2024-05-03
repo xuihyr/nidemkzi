@@ -1,0 +1,88 @@
+ /* body {
+           height: 4000px;
+        } */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box img{
+            width: 100%;
+            height: 800px;
+            /* height: 600px; */
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+        }
+        .top {
+            height: 40px;
+            text-align: center;
+        }
+        .top a {
+            padding-left: 50px;
+            padding-right: 50px;
+            line-height: 40px;
+        }
+        .fen {
+            height: 40px;
+            border-bottom: 2px solid black;
+        }
+        .img-y {
+            width: 600px;
+            height: 400px;
+            margin: 50px auto;
+            
+        }
+        .img-y div img {
+            width: 250px;
+            height: 150px;
+            float: left;
+            margin: 10px;
+
+        }
+        /* .img-y div img:hover {
+            width: 300px;
+            height: 200px;
+        } */
+        .bou {
+            width: 600px;
+            margin: 20px auto;
+        }
+        .img-tu1 img{
+            width: 300px;
+            height: 400px;
+            float: left;
+            margin-right: 40px;
+        }
+        .img-tu1 p {
+            padding-top: 100px;
+           /* float: left; */
+        }
+        audio {
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+        .bou-2 {
+            width: 600px;
+            margin: 0px auto;
+            margin-top: 200px;
+            margin-bottom: 200px;
+        }
+        .img-tu2 img {
+            width: 300px;
+            height: 500px;
+            float: right;
+            margin-left: 40px;
+        }
+        .img-tu2 p{
+            /* padding-top: 100px; */
+            /* float: left; */
+            /* margin-right: 30px; */
+           padding-top: 100px;
+        }
+        .top a:hover {
+            background-color: pink;
+            border-bottom: 2px solid pink;
+        }
